@@ -11,5 +11,6 @@ calc=Good48();
 while 1:
     bs=calc.read(1);
     sys.stdout.write(bs);
+    sys.stdout.flush();
 
 
